@@ -1,0 +1,19 @@
+[package]
+name = "pokernode"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rust-i18n = "2.0.0"
+regex = "1"
+shuffle = "0.1.7"
+rand = "0.8.5"
+ansi_term = "0.12.1"
+vec_map = "0.8.2"
+uuid = "1"
+
+[lib]
+crate-type = ["cdylib"]
+bench = false
